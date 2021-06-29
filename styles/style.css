@@ -109,6 +109,100 @@
   font-weight: 700;
 }
 
+.section-title {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.data-source {
+  margin-top: 20px;
+}
+
+.feynman {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.feynman__main-illustration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 867px;
+  height: 637px;
+  z-index: -1;
+}
+
+.feynman__title {
+  width: 648px;
+  margin: 100px auto 70px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 700;
+}
+
+.feynman__subtitle {
+  margin: auto;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  color: #2f80ed;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
 
 
 /* и элемента с модификатором вида ключ-значение */
