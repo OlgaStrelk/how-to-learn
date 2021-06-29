@@ -30,12 +30,12 @@
   left: 64px;
   height: 32px;
   width: 183px;
-  z-index: -1;
+  z-index: 3;
 }
 
 .header__title {
   width: 730px;
-  left: 64px;
+  margin-left: 64px;
   z-index: 5;
   line-height: 96px;
   font-size: 102px;
@@ -50,6 +50,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 4;
 }
 
 .header__link {
@@ -60,7 +61,7 @@
   position: absolute;
   bottom:0;
   right: 0;
-  z-index: 1;
+  z-index: 0;
   width: 765px;
   height: 608px;
 }
@@ -73,6 +74,7 @@
   right: 0;
   top: 64px;
   background-color: #2f80ed;
+  z-index: -1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
