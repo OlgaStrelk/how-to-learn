@@ -10,7 +10,7 @@
 }
 
 .page-section {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .flex-column {
@@ -29,7 +29,6 @@
 }
 
 .header {
-  margin: 0 auto;
   min-height: 600px;
   max-height: 756px;
   height: 100vh;
