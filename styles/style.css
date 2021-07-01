@@ -36,7 +36,7 @@
   position: relative;
   align-items: center;
   background-color: #f2f2f2;
-  z-index: -1;
+  z-index: 1;
 }
 
 .logo_place_header {
@@ -54,7 +54,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 700;
-  z-index: 5;
+  z-index: 4;
 }
 
 .header__subtitle {
@@ -65,11 +65,13 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  z-index: 4;
+  z-index: 5;
 }
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
+  z-index: 1;
 }
 
 .header__main-illustration {
@@ -173,7 +175,7 @@
   position: relative;
   height: 890px;
   background-color: #f2f2f2;
-  z-index: -1;
+  z-index: 1;
 }
 
 .feynman__title {
@@ -207,11 +209,13 @@
 .feynman__link {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: 46px;
   color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
+  z-index: 2;
 }
 
 .kaufman {
