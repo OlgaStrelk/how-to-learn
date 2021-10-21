@@ -362,6 +362,13 @@
             </li>
           </ul>
         </section>
+        <section class="advices">
+          <button class="advices__button" aria-label="Добавить совет">
+            Расскажите о способах, которые помогают вам
+          </button>
+          <div class="posts">
+          </div>
+        </section>
       </main>
 
       <footer class="footer">
@@ -419,5 +426,33 @@
         </div>
       </footer>
     </div>
+
+    <div class="popup" id="popup-add-posts">
+      <div class="popup__container">
+        <button
+        type="button"
+        class="popup__close popup__close_type_profile"
+        aria-label="Закрыть"
+      ></button>
+        <form name="add-post-form" class="popup__form">
+          <h2 class="popup__title">Что помогает запоминать новый материал вам?</h2>
+          <input class="popup__input" id="input-name" name="name" placeholder="Как вас зовут?"></input>
+          <textarea class="popup__text" id="input-post" name="post" placeholder="Ваш лайфхак"></textarea>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+
+    <template id="post">
+      <div class="post__item">
+        <p class="post__content"></p>
+        <p class="post__author"></p>
+        <button class="post__like" type="button" aria-label="Нравится"></button>
+        <button class="post__remove" type="button" aria-label="Удалить"></button>
+        <button class="post__edit" type="buton" aria-label="Нравится"></button>
+      </div>
+    </template>
+
+    <script src="scripts/index.js"></script>
   </body>
 </html>
