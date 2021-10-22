@@ -13,5 +13,5 @@ buttonPopupOpen.addEventListener("click", () => {
 
 const createPost = (data) => {
   const postElement = templatePost.querySelector(".post__item").cloneNode(true);
-
+  postElement.querySelector(".");
 }
