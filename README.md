@@ -2,6 +2,13 @@
 Данный проект представляет собой одностраничный сайт, выполненный с помощью **HTML**, **CSS**, на языке **JS** и в соответствии с **методологией БЭМ**. Файлы организованы по принципу Nested, не в полной мере проведен ~~принцип обособленности элементов в коде~~. 
 ##### scroll down for english version
 
+## Использованные технологии:
+* flexbox верстка
+* анимация
+* включение медиафайлов из внешних источников <iframe>
+* интерактивные ссылки
+К сайту подключена кодировка UTF-8 и внешняя таблица стилей normalize.css.
+  
 ##  Наполнение:
 * описание проблемы, или *почему обучение не всегда эффективно*
 * техника обучения, предложенная Барбарой Оакли
@@ -12,15 +19,20 @@
 * метод обучения Джоша Кауфмана.
 ## Структура сайта:
 **header**, **content**, состоящий из 9 секций, и **footer**
-## Использованные технологии:
-* flexbox верстка
-* элементарная анимация
-* включение медиафайлов из внешних источников <iframe>
-* интерактивные ссылки
-К сайту подключена кодировка UTF-8 и внешняя таблица стилей normalize.css.
+
 ------
 Семантическая верстка делает сайт доступным для более *__широкого круга пользователей__* - так, он ориентирован на слабовидящих. Кроме того, она более прозрачна для поисковых ботов, что позволяет сайту быть *__выше в поисковиках__*.
 
  ## С проектом можно ознакомиться [тут](https://olgastrelk.github.io/how-to-learn/)
 
  # How to learn
+This project is a SPA on **HTML**, **CSS**, in **JS** language and in accordance with **BEM methodology**. Files are organized according to the Nested principle.
+## Technology stack:
+* flexbox layout
+* animation
+* include media files from external sources <iframe>
+* links
+UTF-8 encoding and external style sheet normalize.css are connected to the site.
+  
+ 
+The project can be viewed [here](https://olgastrelk.github.io/how-to-learn/)
